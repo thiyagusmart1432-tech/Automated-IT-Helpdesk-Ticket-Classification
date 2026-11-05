@@ -1,0 +1,22 @@
+Problem Statement
+The school IT helpdesk receives multiple support requests daily from students and teachers regarding network connectivity, hardware failures, account access problems, and system performance issues.
+
+Currently, IT staff manually review each support ticket to:
+1. Identify the type of issue reported.
+2. Select the appropriate category and subcategory.
+3. Inform the caller about successful ticket creation.
+This manual process is time-consuming, increases the possibility of human errors, and makes ticket management difficult as the number of requests grows.
+
+Therefore, an automated IT helpdesk ticket classification system is proposed using ServiceNow Flow Designer. The system analyzes keywords in the short description and description fields, automatically identifies the issue, assigns the appropriate category and subcategory, and sends a ticket creation notification to the caller.
+Proposed Solution
+- Automatically detect new incident tickets.
+- Analyze keywords to identify the issue.
+- Assign suitable categories and subcategories.
+- Send automatic ticket confirmation notifications.
+- Reduce manual work and improve helpdesk efficiency.
+Expected Benefits
+- Saves time.
+- Reduces human errors.
+- Improves ticket classification accuracy.
+- Provides faster customer communication.
+- Supports efficient incident management.
